@@ -1,1 +1,86 @@
+:root {
+    font-family: "ヒラギノ丸ゴ ProN","sans-serif";
+}
 
+@media (prefers-color-scheme: dark) {
+
+    h1 {
+        color: white;
+    }
+
+    :root {
+        background-color: black;
+        columns: white;
+    }
+}
+
+@media screen and (min-width: 480px) {
+
+    /*
+パソコン
+*/
+    section:hover {
+        transform: scale(1.03, 1.03);
+    }
+
+    :root {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /*
+スマホ
+*/
+    section:hover {
+        transform: scale(1.07, 1.07);
+    }
+
+    :root {
+        padding: 1rem;
+    }
+
+}
+
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blue-section {
+    padding: 2rem;
+    background-color: skyblue;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    transition: 0.35s;
+}
+
+.green-section {
+    padding: 2rem;
+    background-color: greenyellow;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    transition: 0.35s;
+}
+
+.red-section {
+    padding: 2rem;
+    background-color: hotpink;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    transition: 0.35s;
+}
