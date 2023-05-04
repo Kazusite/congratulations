@@ -144,6 +144,44 @@
     transition: 0.35s;
 } 
 
+
+
+.spring-pink-section {
+    padding: 2rem;
+    background-color: #FFD4D4;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    transition: 0.35s;
+}
+
+.spring-cream-section {
+    padding: 2rem;
+    background-color: #FFFFE8;
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    transition: 0.35s;
+}
+
+.spring-lightgreen-section {
+    padding: 2rem;
+    background-color: #CDE990;
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    transition: 0.35s;
+}
+
+.spring-green-section {
+    padding: 2rem;
+    background-color: #AACB73;
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    transition: 0.35s;
+}
+
 /* シェア */
 
 .btn-line {
