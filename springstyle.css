@@ -39,6 +39,9 @@ hr {
         max-width: 390px;
         max-height: 390px;
     }
+    .mv-wrap {
+        height: 500px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -56,6 +59,10 @@ hr {
 
     .btn-line:hover {
         background-color: green;
+    }
+
+    .mv-wrap {
+        height: 250px;
     }
 
 }
@@ -167,10 +174,10 @@ hr {
   .mv-wrap {
     position: relative;
     /* 背景画像の高さ */
-    height: 500px;
+
   }
    
-  video {
+  video .back {
     display: block;
     width: 100%;
     /* 背景画像の高さ */
