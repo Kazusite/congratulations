@@ -242,7 +242,7 @@ video .back {
     /*描画位置※位置は適宜調整してください*/
   position:absolute;
   left:50%;
-  bottom:10px;
+  bottom: 50px;
     /*全体の高さ*/
   height:50px;
 }
