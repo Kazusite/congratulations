@@ -12,6 +12,9 @@ hr {
     columns: white;
 }
 
+img {
+    border-radius: 30px;
+}
 
 
 @media screen and (min-width: 500px) {
@@ -20,6 +23,11 @@ hr {
     section:hover {
         transform: scale(1.03, 1.03);
     }
+
+    img:hover {
+        transform: scale(1.03, 1.03);
+    }
+
 
     .btn-line:hover {
         transform: scale(1.03, 1.03);
@@ -30,6 +38,7 @@ hr {
     img {
         max-width: 390px;
         max-height: 390px;
+        transition: 0.35s;
     }
 
     .mv-wrap {
