@@ -26,9 +26,6 @@ hr {
         background-color: green;
     }
 
-    :root {
-        padding: 2rem;
-    }
 
     img {
         max-width: 390px;
@@ -36,11 +33,15 @@ hr {
     }
 
     .mv-wrap {
-        height: 500px;
+        height: 100vh;
     }
 
     .pcnone {
         display: none;
+    }
+
+    .padding {
+        padding: 2rem;
     }
 
 }
@@ -58,11 +59,15 @@ hr {
     }
 
     .mv-wrap {
-        height: 250px;
+        height: 100vh;
     }
 
     .mobilenone {
         display: none;
+    }
+
+    .padding {
+        padding: 2rem;
     }
 
 }
@@ -174,6 +179,7 @@ hr {
 
 /* ここから */
 .mv {
+    margin-top: 0px;
     width: 100%;
     height: 100%;
     position: relative;
@@ -184,26 +190,26 @@ hr {
 .mv-wrap {
     position: relative;
     /* 背景画像の高さ */
-
+    height: 100vh;
 }
 
 video .back {
     display: block;
-    width: 100%;
+    width: 100vh;
     /* 背景画像の高さ */
-    height: 500px;
+    height: 100vh;
     /* 高さを維持したまま全体を表示させる */
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
 }
 
 .mv-bg {
     display: block;
-    width: 100%;
+    width: 100vh;
     /* 背景画像の高さ */
-    height: 500px;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -213,11 +219,11 @@ video .back {
     z-index: 2;
 }
 
-.mv-txt {
-    color: #fff;
-    font-size: 50px;
+.mv-text {
+    color: black;
     width: 100%;
     height: 50px;
+    font-family: cursive;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -228,6 +234,9 @@ video .back {
     margin: auto;
     text-align: center;
 }
+
+
+
 
 .scrolldown1{
     /*描画位置※位置は適宜調整してください*/
