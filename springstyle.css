@@ -67,7 +67,7 @@ hr {
     }
 
     .padding {
-        padding: 1rem;
+        padding: 0.3rem;
     }
 
 }
@@ -181,7 +181,7 @@ hr {
 .mv {
     margin-top: 0px;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -226,17 +226,17 @@ video .back {
 
 
 
-.scrolldown1{
+.scrolldown{
     /*描画位置※位置は適宜調整してください*/
   position:absolute;
   left:50%;
   bottom: 50px;
     /*全体の高さ*/
-  height:50px;
+  height:100px;
 }
 
 /*Scrollテキストの描写*/
-.scrolldown1 span{
+.scrolldown span{
     /*描画位置*/
   position: absolute;
   left:-15px;
@@ -248,7 +248,7 @@ video .back {
 }
 
 /* 線の描写 */
-.scrolldown1::after{
+.scrolldown::after{
   content: "";
     /*描画位置*/
   position: absolute;
