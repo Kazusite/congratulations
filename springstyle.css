@@ -205,36 +205,24 @@ video .back {
     left: 0;
 }
 
-.mv-bg {
-    display: block;
-    width: 100vh;
-    /* 背景画像の高さ */
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* 薄いレイヤーの色 */
-    background-color: rgba(0, 30, 0, 0.2);
-    /* videoの上に乗せる */
-    z-index: 2;
-}
-
 .mv-text {
     color: black;
     width: 100%;
-    height: 50px;
-    font-family: cursive;
+    height: 0px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    margin-top: 30vh;
     /* レイヤー背景の上に乗せる */
     z-index: 3;
-    margin: auto;
     text-align: center;
 }
 
+.text-cursive {
+    font-family: cursive;
+}
 
 
 
